@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.cocktail.jackcoke.FogOfWar.StatusView
+        android:id="@+id/StatusView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/status_bg" />
+
+    <Button
+        android:id="@+id/btn_status_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Back" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="108dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/btn_exit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="108dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/btn_exit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="108dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/btn_exit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="108dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/btn_exit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/ImageView04"
+                android:layout_width="108dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/btn_exit" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
